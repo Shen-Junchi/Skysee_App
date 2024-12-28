@@ -16,6 +16,8 @@ Web design related knowledge:
 
 I put the Web browser files into these documents, named website. 
 
+# update 2024/12/28
+主要更新网页主题样貌特别是右半部分的CSS搭建 
 
 其中还是有几个问题：
 
