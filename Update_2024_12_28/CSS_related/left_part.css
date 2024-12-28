@@ -1,0 +1,71 @@
+/* 左侧长方形 总体区域*/
+.left-rectangle {
+    width: 15%;
+    height: calc(100%);
+    background-color: #191a1a;  /* 保持一个背景颜色，以便模糊效果生效 */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+
+    opacity: 0.8;
+}
+
+.left-logo {
+    /*位置*/
+    position: absolute;
+    top: 4%;
+    left: 10%;
+
+    /* 必要的尺寸设置 */
+    width: 80%;
+    height: 100px;
+
+    /* 背景图片设置 */
+    background-image: url("../asset/open-book-lightbulb.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* 使用 filter 改变颜色 */
+    filter: brightness(0) saturate(100%) invert(23%) sepia(11%) saturate(205%) hue-rotate(202deg) brightness(97%) contrast(88%);
+}
+
+
+.start-new-chat {
+    /*原有样式保持不变*/
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 5%;
+    background-color: #212222;
+    border: 2px solid #323332;
+    border-radius: 10px;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;  /* 这行确保颜色变化有平滑过渡效果 */
+    display: flex;
+    align-items: center;     /* 垂直居中 */
+    justify-content: left; /* 水平居中 */
+}
+
+/*上面写字*/
+.start-new-chat p {
+    color: #888;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Microsoft YaHei", sans-serif;
+
+    margin: 0; /* 清除段落默认边距 */
+
+}
+
+/* 添加悬停效果 */
+.start-new-chat:hover {
+    background-color: #2a2b2b;    /* 背景色变化 */
+    border-color: #4a4b4a;        /* 边框色变化 */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);  /* 阴影加强 */
+    cursor: pointer;              /* 鼠标变为手型 */
+}
+
