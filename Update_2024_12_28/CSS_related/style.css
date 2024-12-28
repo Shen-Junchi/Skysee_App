@@ -1,0 +1,49 @@
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 画布样式 */
+/* layout.css */
+.canvas {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../asset/background.jpg"); /* 使用相对路径 */
+    background-color: #474747; /* 作为背景图片加载失败的后备 */
+    background-size: cover; /* 确保背景图片适当缩放 */
+    background-position: center; /* 背景图片居中 */
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+/* 添加底部文字样式 彩蛋 */
+
+.bottom-text {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-family: "Microsoft YaHei", sans-serif;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
