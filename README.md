@@ -23,3 +23,5 @@ I put the Web browser files into these documents, named website.
 
    按住Tab键不能实现空行 使得使用不流畅 
 加入匹配文章观点 找到相关的知识点 比如说生物 或者是别的 
+
+另一个小问题在于 应该自动匹配用户使用语言进行翻译: 录入
