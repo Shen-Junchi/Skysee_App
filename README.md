@@ -25,3 +25,13 @@ I put the Web browser files into these documents, named website.
 加入匹配文章观点 找到相关的知识点 比如说生物 或者是别的 
 
 另一个小问题在于 应该自动匹配用户使用语言进行翻译: 录入
+
+＃ update 2024/12/30
+
+主要问题集中在对话生成上 
+另一个问题在于如何实现历史记录 目前的想法是每次打开一个记录 就要记录下来 并且域名要换 比如说一开始是
+'www.skysee.com'
+现在先变成
+'www.skysee/talk1.com'
+
+
