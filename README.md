@@ -34,7 +34,8 @@ I put the Web browser files into these documents, named website.
 现在先变成
 'www.skysee/talk1.com'
 
-#至于后面的如何实现后台 有几个思路
+# Update 2025/1/2
+至于后面的如何实现后台 有几个思路
 1. 确定使用者教育背景 设计prompt  比如说 有人问什么是光合作用 分析这个人问这个问题 差不多是什么等级的学生 如果是小学生 那么prompt就是 `教给小学生 什么是 {}`再输入input
 
 
