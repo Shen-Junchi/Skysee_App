@@ -37,6 +37,11 @@ I put the Web browser files into these documents, named website.
 # Update 2025/1/2
 至于后面的如何实现后台 有几个思路
 1. 确定使用者教育背景 设计prompt  比如说 有人问什么是光合作用 分析这个人问这个问题 差不多是什么等级的学生 如果是小学生 那么prompt就是 `教给小学生 什么是 {}`再输入input
+
+最简单的是
+一开始的问题 {} 加入的prompt就是 `简单的解释一下 如何简单的说明白这个问题 {Question}` 
+
+
 2. quick citation 如何快速引用 引用的格式 比如说牛津格式引用
 
 # Update 2025/1/3
