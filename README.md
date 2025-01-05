@@ -47,3 +47,6 @@ I put the Web browser files into these documents, named website.
 # Update 2025/1/3
 https://monica.im/webapp/doc-chat?doc_id=b4a2951729eb4729b0c8eab863834f5d 这个是路由的格式
 
+
+# Update 2025/1/5
+具体的页数 比如说 超链接的形式定位到具体的位置 比如说就研究方法而言 他在第五页 超链接到第五页
