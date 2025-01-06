@@ -51,3 +51,9 @@ https://monica.im/webapp/doc-chat?doc_id=b4a2951729eb4729b0c8eab863834f5d 这个
 # Update 2025/1/5
 具体的页数 比如说 超链接的形式定位到具体的位置 比如说就研究方法而言 他在第五页 超链接到第五页
 与此同时 匹配用户的工作情况 对于学生 他们有自己的写论文高峰期 那这个时候的学生 我们主要进行毕业论文的模式设计
+
+前端具体返回的值：
+三种情况 
+1. 用户状态set up 更改后 传递setup
+2. pdf 加问题 用户ID 组成为 userID&userChatID 初始化的时候 
+3. 用户问题 加上用户ID 加上用户userID&userChatID
