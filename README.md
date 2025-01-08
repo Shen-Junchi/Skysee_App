@@ -57,3 +57,6 @@ https://monica.im/webapp/doc-chat?doc_id=b4a2951729eb4729b0c8eab863834f5d 这个
 1. 用户状态set up 更改后 传递setup
 2. pdf 加问题 用户ID 组成为 userID&userChatID 初始化的时候 
 3. 用户问题 加上用户ID 加上用户userID&userChatID
+
+# Update 2025/1/7
+如何定位 具体的reference的位置 比如说 mike 在文章2024中 说了一句话 具体定位在文章的哪个部分
