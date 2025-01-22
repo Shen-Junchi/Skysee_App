@@ -60,3 +60,6 @@ https://monica.im/webapp/doc-chat?doc_id=b4a2951729eb4729b0c8eab863834f5d 这个
 
 # Update 2025/1/7
 如何定位 具体的reference的位置 比如说 mike 在文章2024中 说了一句话 具体定位在文章的哪个部分
+
+# Update 2025/1/22
+我们需要更清楚的知道 用户一般的需求是什么？ 比如说更想了解技术细节 还是如何
